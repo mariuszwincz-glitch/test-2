@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0c10" />
+    <title>AI Visual Overhaul — Agencja AI Visual Creator</title>
+    <meta
+      name="description"
+      content="AI Visual Overhaul: transformujemy amatorskie zdjęcia produktów w wysokobudżetowe materiały reklamowe, które realnie poprawiają klikalność (CTR) na Allegro, Amazon i Etsy."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AI Visual Overhaul — materiały, które klikają" />
+    <meta
+      property="og:description"
+      content="Z nudnych, powtarzalnych zdjęć do kreatywnych kampanii produktowych. Portfolio Przed/Po + proces + szybka wycena."
+    />
+
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Przejdź do treści</a>
+
+    <div class="bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="AI Visual Overhaul">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">
+            <span class="brand-name">AI Visual Overhaul</span>
+            <span class="brand-tag">AI Visual Creator</span>
+          </span>
+        </a>
+
+        <nav class="nav" aria-label="Główna nawigacja">
+          <a class="nav-link" href="#rozmowa">Rozmowa</a>
+          <a class="nav-link" href="#proces">Proces</a>
+          <a class="nav-link" href="#pokaz">Pokaż</a>
+          <a class="nav-link" href="#oferta">Oferta</a>
+        </nav>
+
+        <div class="header-cta">
+          <a class="btn btn-ghost" href="#pokaz">Przełącz produkty</a>
+          <a class="btn btn-primary" href="#kontakt">Pokaż swoją ofertę</a>
+          <button class="nav-toggle" type="button" aria-label="Otwórz menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-nav" hidden>
+        <div class="container mobile-nav-inner">
+          <a class="mobile-link" href="#rozmowa">Rozmowa</a>
+          <a class="mobile-link" href="#proces">Proces</a>
+          <a class="mobile-link" href="#pokaz">Pokaż</a>
+          <a class="mobile-link" href="#oferta">Oferta</a>
+          <a class="btn btn-primary" href="#kontakt">Pokaż swoją ofertę</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="top" class="hero hero--fullscreen">
+        <div class="container hero-grid">
+          <div class="hero-left" aria-label="Wprowadzenie">
+            <p class="eyebrow">Dla sprzedawców <strong>Allegro / Amazon / Etsy</strong></p>
+            <h1 class="h1">
+              Ten sam produkt.
+              <span class="grad">Dwa odbiory.</span>
+            </h1>
+            <p class="lead lead-tight">
+              Przesuń palcem lub myszą. Bez efektów — tylko różnica, którą widać od razu.
+            </p>
+
+            <div class="hero-actions hero-actions--single">
+              <a class="btn btn-primary" href="#rozmowa">Zobacz rozmowę sprzedażową</a>
+              <a class="btn btn-ghost" href="#pokaz">Przełącz produkty</a>
+            </div>
+          </div>
+
+          <div class="hero-right" role="region" aria-label="Porównanie Przed i Po">
+            <div class="compare" data-compare data-pos="50">
+              <div class="compare-media" aria-label="Obraz porównawczy">
+                <div class="compare-before" aria-label="Przed">
+                  <img
+                    class="ba-img"
+                    src="assets/demo/product-1-before.svg"
+                    alt="Przed: płaskie światło, brak kontekstu, hurtowy kadr."
+                  />
+                </div>
+                <div class="compare-after" aria-label="Po">
+                  <img
+                    class="ba-img"
+                    src="assets/demo/product-1-after.svg"
+                    alt="Po: naturalny produkt, głębia, kontekst i zaufanie."
+                  />
+                </div>
+              </div>
+
+              <div class="compare-handle" aria-hidden="true">
+                <div class="compare-grip"></div>
+              </div>
+
+              <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Suwak porównania" />
+            </div>
+
+            <p class="cause cause--under">
+              Oferty nie przegrywają ceną, tylko odbiorem.
+            </p>
+            <p class="fineprint fineprint-hero">
+              Suwak działa myszą i palcem. Poniżej możesz porównać inne produkty i widoki.
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-scroll" aria-hidden="true">
+          <span>Scroll</span>
+          <span class="hero-scroll-line"></span>
+        </div>
+      </section>
+
+      <section class="logos" aria-label="Platformy">
+        <div class="container">
+          <div class="logos-inner">
+            <span class="logos-title">Skrojone pod platformy sprzedażowe:</span>
+            <div class="logos-grid" role="list">
+              <div class="logo" role="listitem"><span class="logo-dot" aria-hidden="true"></span> Allegro</div>
+              <div class="logo" role="listitem"><span class="logo-dot" aria-hidden="true"></span> Amazon</div>
+              <div class="logo" role="listitem"><span class="logo-dot" aria-hidden="true"></span> Etsy</div>
+              <div class="logo" role="listitem"><span class="logo-dot" aria-hidden="true"></span> Reklamy Meta</div>
+              <div class="logo" role="listitem"><span class="logo-dot" aria-hidden="true"></span> Reklamy Google</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="rozmowa" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="h2">1) „Mam dobry produkt”</h2>
+            <p class="sub">To nie wyklucza tego, że zdjęcia robią mu krzywdę.</p>
+          </div>
+
+          <div class="talk-grid">
+            <article class="talk-card">
+              <h3 class="h3">Produkt może być świetny</h3>
+              <p>Ale jeśli wygląda na tani, klient nie ufa — i nawet nie kliknie.</p>
+            </article>
+            <article class="talk-card">
+              <h3 class="h3">Miniaturka to moment prawdy</h3>
+              <p>W wynikach nie wygrywa opis. Wygrywa pierwsze wrażenie.</p>
+            </article>
+            <article class="talk-card">
+              <h3 class="h3">To jest naprawialne</h3>
+              <p>Światło, proporcje i kontekst potrafią zmienić odbiór bez zmiany produktu.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="h2">2) „To pewnie tylko filtr”</h2>
+            <p class="sub">Nie tłumaczymy technologii. Pokazujemy różnicę, którą czuć.</p>
+          </div>
+
+          <div class="perception">
+            <div class="perception-item">
+              <div class="perception-title">Światło</div>
+              <div class="perception-desc">Płasko = tanio. Kontrolowane światło = jakość i detal.</div>
+            </div>
+            <div class="perception-item">
+              <div class="perception-title">Proporcje</div>
+              <div class="perception-desc">Hurtowy kadr zabija premium. Dobre proporcje robią „pewność”.</div>
+            </div>
+            <div class="perception-item">
+              <div class="perception-title">Kontekst</div>
+              <div class="perception-desc">Scena daje skalę i sens: do czego to jest i dla kogo.</div>
+            </div>
+          </div>
+
+          <div class="thumb-row" aria-label="Przykład: jak zmienia się percepcja">
+            <div class="thumb">
+              <div class="thumb-cap">Światło</div>
+              <div class="thumb-pair">
+                <div class="thumb-frame">
+                  <img class="thumb-img thumb-img--light" src="assets/demo/product-1-before.svg" alt="Fragment: przed (światło)" />
+                </div>
+                <div class="thumb-frame">
+                  <img class="thumb-img thumb-img--light" src="assets/demo/product-1-after.svg" alt="Fragment: po (światło)" />
+                </div>
+              </div>
+            </div>
+            <div class="thumb">
+              <div class="thumb-cap">Proporcje</div>
+              <div class="thumb-pair">
+                <div class="thumb-frame">
+                  <img class="thumb-img thumb-img--prop" src="assets/demo/product-1-before.svg" alt="Fragment: przed (proporcje)" />
+                </div>
+                <div class="thumb-frame">
+                  <img class="thumb-img thumb-img--prop" src="assets/demo/product-1-after.svg" alt="Fragment: po (proporcje)" />
+                </div>
+              </div>
+            </div>
+            <div class="thumb">
+              <div class="thumb-cap">Kontekst</div>
+              <div class="thumb-pair">
+                <div class="thumb-frame">
+                  <img class="thumb-img thumb-img--ctx" src="assets/demo/product-1-before.svg" alt="Fragment: przed (kontekst)" />
+                </div>
+                <div class="thumb-frame">
+                  <img class="thumb-img thumb-img--ctx" src="assets/demo/product-1-after.svg" alt="Fragment: po (kontekst)" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="proces" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="h2">3) „OK, ale jak to robicie?”</h2>
+            <p class="sub">Operacyjnie. Konkretne kroki. Bez „kompleksowej obsługi”.</p>
+          </div>
+
+          <div class="steps">
+            <article class="step">
+              <div class="step-no">1</div>
+              <h3 class="h3">Patrzymy na miniaturkę obok konkurencji</h3>
+              <p>Dokładnie w kontekście, w którym klient podejmuje decyzję.</p>
+              <ul class="list">
+                <li>obok 6–12 realnych konkurentów</li>
+                <li>co znika w małej skali</li>
+                <li>co ma szansę wygrać uwagę</li>
+              </ul>
+            </article>
+
+            <article class="step">
+              <div class="step-no">2</div>
+              <h3 class="h3">Odbudowujemy produkt, żeby wyglądał naturalnie</h3>
+              <p>Światło i proporcje tak, żeby produkt budził zaufanie.</p>
+              <ul class="list">
+                <li>czytelna tekstura i detal</li>
+                <li>kontekst użycia (scena)</li>
+                <li>spójność stylu serii</li>
+              </ul>
+            </article>
+
+            <article class="step">
+              <div class="step-no">3</div>
+              <h3 class="h3">Przygotowujemy kadry pod platformę</h3>
+              <p>Miniaturka, galeria i reklamy — każdy kadr ma swoje zadanie.</p>
+              <ul class="list">
+                <li>formaty i bezpieczne marginesy</li>
+                <li>warianty do prostego porównania</li>
+                <li>gotowe do podmiany w ofertach</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="pokaz" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="h2">4) Zobacz to sam</h2>
+            <p class="sub">Przełącz produkty. Zmień widok. Przesuń suwak. Zobacz, jak zmienia się odbiór.</p>
+          </div>
+
+          <div class="showroom" data-showroom>
+            <div class="showroom-bar">
+              <div class="tabs" role="tablist" aria-label="Produkty">
+                <button class="tab is-active" type="button" role="tab" aria-selected="true" data-product="p1">
+                  Kosmetyk
+                </button>
+                <button class="tab" type="button" role="tab" aria-selected="false" data-product="p2">Elektronika</button>
+                <button class="tab" type="button" role="tab" aria-selected="false" data-product="p3">Moda</button>
+              </div>
+
+              <div class="views" aria-label="Widoki">
+                <button class="view is-active" type="button" data-view="miniatura">Miniaturka</button>
+                <button class="view" type="button" data-view="galeria">Galeria</button>
+              </div>
+            </div>
+
+            <div class="showroom-stage">
+              <div class="compare compare--stage" data-compare data-pos="50">
+                <div class="compare-media">
+                  <div class="compare-before">
+                    <img class="ba-img" data-img="before" src="assets/demo/product-1-before.svg" alt="Przed." />
+                  </div>
+                  <div class="compare-after">
+                    <img class="ba-img" data-img="after" src="assets/demo/product-1-after.svg" alt="Po." />
+                  </div>
+                </div>
+                <div class="compare-handle" aria-hidden="true"><div class="compare-grip"></div></div>
+                <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Suwak porównania" />
+              </div>
+
+              <div class="showroom-notes" aria-label="Co się zmienia">
+                <div class="note-line"><span class="dot"></span> ten sam produkt, inny odbiór</div>
+                <div class="note-line"><span class="dot"></span> obraz budzi zaufanie albo je odbiera</div>
+                <div class="note-line"><span class="dot"></span> miniaturka nie może ginąć obok konkurencji</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="oferta" class="section section-last">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="h2">5) Zaczynamy bezpiecznie: test 1 oferty</h2>
+            <p class="sub">Nie kupujesz obietnicy. Kupujesz gotowe obrazy do podmiany i porównania.</p>
+          </div>
+
+          <div class="offer">
+            <div class="offer-left">
+              <div class="offer-lines" aria-label="Język rezultatu">
+                <div class="offer-line"><span class="dot"></span> miniaturka, która nie ginie</div>
+                <div class="offer-line"><span class="dot"></span> zdjęcie, któremu klient ufa</div>
+                <div class="offer-line"><span class="dot"></span> kadry przygotowane pod platformę</div>
+              </div>
+            </div>
+
+            <div class="offer-right">
+              <div class="offer-card">
+                <div class="pill">Test 1 oferty</div>
+                <h3 class="h3">Co dokładnie dostajesz</h3>
+                <ul class="check">
+                  <li>1 miniaturę do podmiany</li>
+                  <li>3–6 zdjęć do galerii w spójnym stylu</li>
+                  <li>2 warianty miniatury do porównania</li>
+                  <li>pliki gotowe pod Allegro/Amazon/Etsy</li>
+                </ul>
+                <div class="offer-meta">
+                  <div class="offer-meta-item">
+                    <div class="offer-meta-k">Czas</div>
+                    <div class="offer-meta-v">zwykle 3–7 dni</div>
+                  </div>
+                  <div class="offer-meta-item">
+                    <div class="offer-meta-k">Po co</div>
+                    <div class="offer-meta-v">żeby nie tracić kliknięć</div>
+                  </div>
+                </div>
+
+                <div class="offer-cta">
+                  <a class="btn btn-primary btn-wide" href="#kontakt">Pokaż swoją ofertę</a>
+                  <p class="fineprint">Bez presji. Wystarczy link do oferty i 2–3 zdjęcia produktu.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section id="kontakt" class="contact-simple" aria-label="Kontakt">
+      <div class="container contact-simple-inner">
+        <div class="contact-simple-left">
+          <h2 class="h2">Pokaż swoją ofertę</h2>
+          <p class="sub">
+            Wyślij link do oferty i 2–3 zdjęcia produktu (telefon OK). Odpowiemy krótko: co poprawić na miniaturce i co
+            przetestować.
+          </p>
+        </div>
+        <div class="contact-simple-right">
+          <a
+            class="btn btn-primary"
+            href="mailto:hello@aivisualoverhaul.com?subject=Poka%C5%BC%20swoj%C4%85%20ofert%C4%99%20%E2%80%94%20AI%20Visual%20Overhaul&body=Link%20do%20oferty%3A%20%0A%0APlatforma%3A%20Allegro%20%2F%20Amazon%20%2F%20Etsy%0A%0AKr%C3%B3tko%20co%20sprzedajesz%3A%20%0A%0A2%E2%80%933%20zdj%C4%99cia%20produktu%20(w%20za%C5%82%C4%85czeniu)%3A%20"
+            >Otwórz maila</a
+          >
+          <div class="contact-hint">
+            <div class="pill pill-muted">Najkrócej</div>
+            <div class="contact-hint-text">„Link + 2–3 zdjęcia + platforma”</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <div class="brand brand--footer">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span class="brand-text">
+              <span class="brand-name">AI Visual Overhaul</span>
+              <span class="brand-tag">Agencja AI Visual Creator</span>
+            </span>
+          </div>
+          <p class="fineprint">© <span id="year"></span> AI Visual Overhaul.</p>
+        </div>
+        <div class="footer-right">
+          <a class="link" href="#rozmowa">Rozmowa</a>
+          <a class="link" href="#pokaz">Pokaż</a>
+          <a class="link" href="#oferta">Oferta</a>
+          <a class="link" href="#kontakt">Kontakt</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="sticky-cta" aria-label="Szybki kontakt">
+      <a class="btn btn-primary btn-wide" href="#kontakt">Pokaż swoją ofertę</a>
+    </div>
+  </body>
+</html>
